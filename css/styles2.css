@@ -1,0 +1,191 @@
+
+:root{
+    --darkerblack: #030303;
+    --darkblack: #060606;
+    --black: #212121;
+    --black2: rgb(38,38,38);
+    --darkgray: #525252;
+    --blue: #0a6aba;
+    --blue2: #208dfb;
+    --redorange: #FC5D54;
+}
+
+/* Box2 */
+
+.Box2{
+    background-color: var(--black);
+    width: 100%;
+    display: flex;
+    color: #f4f6f8;
+    padding-bottom: 50px;
+    /* #556271 */
+}
+
+
+.AboutBox1{
+    width: 60%;
+    font-size: 20px;
+}
+.AboutBox1 h2{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--redorange);
+}
+.AboutBox1 h3{
+    font-size: 70px;
+    margin-left: 15%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.AboutBox1 p{
+    width: 70%;
+    margin: 1.5vw 15%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 20%;
+}
+.AboutBox2{
+    width: 40%;
+}
+.AboutPhoto{
+    background-color: var(--darkblack);
+    width: 80%;
+    margin: 10% 10%;
+}
+.AboutPhoto img{
+    width: 100%;
+    opacity: 70%;
+}
+
+.bi{
+    color: var(--redorange);
+    font-size: 0.9vw;
+}
+
+.SkillRatings {
+    background-color: var(--black2);
+    width: 80%;
+    padding: 5%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.SkillBox{
+    width: 30%;
+    
+}
+
+.SkillBox :hover, .SkillBox li:hover{
+    color: var(--darkblack);
+}
+
+
+
+
+
+
+
+
+
+/* Box3 */
+.Box3{
+    width: 100%;
+    /* background-color: white; */
+    background-color: var(--darkerblack);
+    padding-bottom: 5%;
+}
+
+.CanDoMainBox{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    flex-direction: column;
+}
+.CanDoContent{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-evenly;
+       
+}
+
+.CanDoBox{
+    /* background-color: #d9d7d6; */
+    background-color: var(--black2);
+    margin-right: 20px;
+    width: 25%;
+    height: 20%;
+    min-height: 300px;
+    margin-top: 3vw;
+    margin-bottom: 50px;
+    /* box-shadow: 1px 2px  25px var(--black); */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.ConLabel h2{   
+    color: var(--redorange);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.CanDoImage img{
+   width: 100px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.CanDoDescription{
+    width: 90%;
+    color: white;
+    text-align: justify;
+    margin-left: 5%;
+}
+.CanDoDescription p{
+    text-indent: 10%;
+}
+.Legend{
+    width: 100%;
+    font-size: large;
+    font-weight: bolder;   
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Box4{
+    width: 100%;
+    height: 450px;
+    /* background-color: white; */
+    background-color: var(--black2);
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* Footer Here*/
+
+
+footer {
+}
+
