@@ -151,24 +151,24 @@ header{
     height: 100%;
     padding-top: 30%;
 }
-greet{
+.greet{
     font-size: 4vw;  
 }
-greet, name, profession{
+.greet, .name, .profession{
     color:white;   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-profession{
+.profession{
     color: gray;
     display: block;
     font-size: 3vw;   
 }
-profession strong{
+.profession strong{
     color: var(--redorange);
     font-size: 4vw;   
 }
-name{
+.name{
     display: block;
     letter-spacing: 5px;
     font-size: 6vw;  
