@@ -34,8 +34,8 @@
     color: var(--redorange);
 }
 .AboutBox1 h3{
-    font-size: 70px;
-    margin-left: 15%;
+    font-size: 50px;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .AboutBox1 p{
