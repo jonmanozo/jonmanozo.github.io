@@ -276,7 +276,11 @@ footer {
 
 @media screen and (max-width: 1300px) {
         
-   
+    
+    .bi{
+        color: var(--redorange);
+        font-size: 15px;
+    }
     
     .DownloadCV{
         margin: 50px 75px;
@@ -483,7 +487,11 @@ footer {
     .CanDoBox{
         width: 90%; 
     }
-        
+    
+    .bi{
+        color: var(--redorange);
+        font-size: 13px;
+    }
 
 }
    
