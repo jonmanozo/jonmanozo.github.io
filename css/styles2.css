@@ -81,8 +81,25 @@
 }
 
 
+.DownloadCV{
+    margin: 50px 10%;
 
+}
+.DownloadCV button {
+    width: 50%;
+    padding: 20px;
+    margin-left: 20%;
+    color:#030303;
+    font-weight: 700;
+    
+    border: 5px solid white;
+}
 
+.DownloadCV button:hover {
+    background: none !important;
+    border: 5px solid var(--redorange);
+    color: var(--redorange);
+}
 
 
 
@@ -249,4 +266,3 @@ footer {
     font-weight: bolder;
 
 }
-
