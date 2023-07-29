@@ -83,19 +83,19 @@
 
 .DownloadCV{
     margin: 50px 10%;
+    width: 100%;
 
 }
-.DownloadCV button {
-    width: 50%;
-    padding: 20px;
-    margin-left: 20%;
+.DownloadCV a {
+    margin-left: 25%;
     color:#030303;
     font-weight: 700;
-    
+    text-decoration: none;
+    background-color:  white;
     border: 5px solid white;
 }
 
-.DownloadCV button:hover {
+.DownloadCV a:hover {
     background: none !important;
     border: 5px solid var(--redorange);
     color: var(--redorange);
@@ -264,5 +264,108 @@ footer {
     color: white;
     font-size: 20px;
     font-weight: bolder;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+        
+   
+    
+    .DownloadCV{
+        margin: 50px 75px;
+
+    }
+    .DownloadCV a {
+        width: 300px;
+        height: 40px;
+        float: right;
+        margin-right: -325px;
+        margin-top: -80px;
+        color:#030303;
+        font-weight: 700;
+        border: 5px solid white;
+        text-align: center;
+    }
+    .DownloadCV span{
+        font-size: 15px;
+    }
+        
+    .AboutBox1 h3{
+        font-size: 30px;
+    
+    }
+        
+    .AboutBox1 h2{
+        font-size: 40px;
+    
+    }
+
+        
+    .AboutBox2{
+        width: 40%;
+    }
+    .AboutPhoto{
+        background-color: var(--darkblack);
+        width: 400px;
+        margin: 50px 50px;
+    }
+    .AboutPhoto img{
+        width: 100%;
+        opacity: 70%;
+    }
+
+
+    .CanDoBox{
+    width: 40%;
+
+    }
+        
+    .FollowBox h3{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        margin-top: 20%;
+    }
+    .conlogo {
+        font-size: 30px;
+        margin: 10px;
+    }
+        
+    .ContactAddBox {
+        font-size: 20px;
+        width: 100%; 
+        float: left;
+    }
+
+
+
+    .NumIcon i, .HomeIcon i{
+        font-size: 30px;
+        margin-right: 40px;
+    }
+        
+    footer {
+
+        font-size: 15px;
+
+    }
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1170px) {
+ 
+    
+
 
 }
