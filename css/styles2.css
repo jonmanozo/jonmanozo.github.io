@@ -53,6 +53,9 @@
     width: 80%;
     margin: 10% 10%;
 }
+.AboutPhoto2 img{
+    display: none;
+}
 .AboutPhoto img{
     width: 100%;
     opacity: 70%;
@@ -363,9 +366,124 @@ footer {
 
 
 
-@media screen and (max-width: 1170px) {
- 
+@media screen and (max-width: 1200px) {
+    
+    .Box2{
+        flex-wrap: wrap !important;
+        flex-flow: column-reverse;
+    }
+
+    .AboutBox1{
+        width: 100%;
+        font-size: 20px;
+
+    }
+     
+    .AboutBox2{
+        width: 100%;
+        font-size: 20px;
+    }
+        
+    .AboutBox1 h3{
+        font-size: 25px;
+    
+    }
+    .AboutPhoto{
+        display: none;
+    }
+    .AboutPhoto2{
+        background-color: var(--darkblack);
+        width: 300px;
+        margin-left: 33%;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .AboutPhoto2 img{
+        width: 300px;
+        display: inline-block;
+   
+    }
     
 
 
 }
+
+
+
+@media screen and (max-width: 950px) {
+   
+     .CanDoBox{
+        width: 60%; 
+    }
+        
+      
+    .FollowBox h3{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-top: 20%;
+    }
+    .conlogo {
+        font-size: 20px;
+        margin: 10px;
+    }
+        
+    .ContactAddBox {
+        font-size: 15px;
+        width: 100%; 
+        float: left;
+    }
+
+
+    .NumIcon i, .HomeIcon i{
+        font-size: 25px;
+        margin-right: 40px;
+    }
+        
+
+    footer {
+        font-size: 15px;
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    
+    .Box4{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .ContactBox1{
+        width: 100%;
+        display: flex;
+    }
+    .ContactBox2{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .ContactNumBox, .HomeAddBox{
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 20%;
+        
+    }
+        
+    .HomeDetails, .NumDetails {
+        color: white;
+        margin-left: 10%;
+    }
+    .ContactLogoBox,  .FollowBox {
+        margin-left: 20%;
+    }
+    
+    .CanDoBox{
+        width: 90%; 
+    }
+        
+
+}
+   
